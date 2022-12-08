@@ -21,9 +21,9 @@ Mobile App </h1>
 Clone the repo to your machine and install deps :
 
 ```sh
-git clone https://github.com/user/repo-name
+git clone https://github.com/hxutixnnn/react-native-expo-template
 
-cd ./repo-name
+cd ./react-native-expo-template
 
 yarn
 ```
