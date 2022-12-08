@@ -5,7 +5,7 @@
 
 echo "===\n>> Checking branch name..."
 
-BRANCH=$(git rev-parse --abbrev-ref HEAD)
+BRANCH=$(git rev-parse --abbrev-ref -- HEAD)
 PROTECTED_BRANCHES="^(main)"
 
 if [[ $BRANCH =~ $PROTECTED_BRANCHES ]]; then
